@@ -6,7 +6,7 @@ import {Avatar } from '@material-ui/core';
 const CustomAvatar = props => {
     return (
         <div>
-            <Avatar/>
+            <Avatar sizes={props.sizes}/>
         </div>
     )
 }
